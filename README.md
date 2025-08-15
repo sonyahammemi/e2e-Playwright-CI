@@ -13,7 +13,7 @@ Il est configuré avec une pipeline **CI/CD** via **GitHub Actions** pour exécu
 ## Installation
 
 1. Cloner le dépôt :
-git clone https://github.com/ton-utilisateur/ton-projet-playwright.git
+git clone https://github.com/sonyahammemi/e2e-playwright-CI.git
 cd ton-projet-playwright
 
 Installer les dépendances :
