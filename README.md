@@ -2,8 +2,6 @@
 Ce projet contient des tests de bout en bout (End-to-End) automatisés pour l’application **SauceDemo** utilisant **Playwright** et **TypeScript**.  
 Il est configuré avec une pipeline **CI/CD** via **GitHub Actions** pour exécuter les tests automatiquement à chaque push.
 
----
-
 ## Fonctionnalités
 
 - Tests automatisés avec Playwright (login, ajout au panier, checkout…)
@@ -12,60 +10,40 @@ Il est configuré avec une pipeline **CI/CD** via **GitHub Actions** pour exécu
 - Rapport HTML interactif généré après chaque exécution de tests
 - Gestion des données de test via fichiers JSON
 
----
-
 ## Installation
 
 1. Cloner le dépôt :
-
-```bash
 git clone https://github.com/ton-utilisateur/ton-projet-playwright.git
 cd ton-projet-playwright
-Installer les dépendances :
 
-bash
-Copier
-Modifier
+Installer les dépendances :
 npm install
 Commandes principales
+
 Lancer tous les tests en mode headless :
-
-bash
-Copier
-Modifier
 npm test
-Ouvrir le rapport HTML des tests :
 
-bash
-Copier
-Modifier
+Ouvrir le rapport HTML des tests :
 npm run report
-Structure du projet
-bash
-Copier
-Modifier
+
+Structure du projet:
 /tests           # Scripts de test Playwright
 /pages           # Classes Page Object pour abstraire les pages
 /fixtures        # Données JSON utilisées pour les tests
 /playwright.config.ts  # Configuration Playwright
 /.github/workflows # Configuration GitHub Actions (CI/CD)
 CI/CD avec GitHub Actions
+
 Un workflow est configuré pour :
-
 Installer les dépendances
-
 Lancer les tests Playwright
 
-Générer un rapport
-
+Générer un rapport:
 Publier le rapport en artefact (optionnel)
 
-Technologies utilisées
+Technologies utilisées :
 Playwright
-
 TypeScript
-
 Node.js
-
 GitHub Actions
 
